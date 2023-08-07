@@ -1,0 +1,55 @@
+{
+  "API_URL": "http://localhost:3000/api/",
+  "API_LOGIN": "admin/login",
+  "API_LIST_USER":"admin/listingUser",
+  "API_LIST_ADMIN":"admin/listingAdmin",
+  "API_LIST_PRODUCT":"admin/listingProduit",
+  "API_LIST_COUNTRY" :"admin/listingPays",
+  "API_LIST_SEARCH" :"admin/listingRecherche",
+  "API_GET_LOCAL_SEARCH":"admin/rechercheLocal",
+  "API_GET_INTERNATIONAL_SEARCH":"admin/rechercheOfac ",
+  
+ 
+  "API_ADD_LIST_COUNTRY":"admin/ajouterPays",
+  "API_ADD_LIST_PRODUCT":"admin/ajouterProduit",
+  "API_ADD_LIST_ADMIN":"admin/register",
+  "API_ADD_LIST_USER":"user/register",
+  
+  
+  "API_DELETE_LIST_ADMIN":"admin/deleteAdmin?id=",
+  "API_DELETE_LIST_USER":"admin/deleteUser?id=",
+  "API_DELETE_LIST_PRODUCT":"admin/deleteProduit?id=",
+ "API_DELETE_LIST_COUNTRY":"admin/deletePays?id=",
+ "API_DELETE_LIST_SEARCH":"admin/deleteRecherche?id=",
+
+
+  "API_GET_BY_ID_LIST_PRODUCT":"admin/getByIdProduit",
+  "API_GET_BY_ID_LIST_COUNTRY":"admin/getByIdPays",
+  "API_GET_BY_ID_LIST_ADMIN":"admin/getByIdAdmin",
+  "API_GET_BY_ID_LIST_USER":"user/getByIdUser",
+  "API_GET_BY_ID_SEARCH":"admin/getByIdRecherche",
+
+
+
+
+  "API_UPDATE_LIST_PRODUCT":"admin/updateProduit?id=",
+  "API_UPDATE_LIST_COUNTRY":"admin/updatePays?id=",
+  "API_UPDATE_LIST_ADMIN":"admin/updateAdmin",
+
+
+  "API_LIST_DASHBOARD":"admin/dashboardContent",
+  "API_PASSWORD_RESET":"admin/resetPassword",
+  "API_SEND_EMAIL":"admin/sendMail",
+  "API_NEW_PASSWORD_RESET":"admin/newPasswordReset",
+
+"API_ADD_NOTIFICATION":"admin/ajouterNotification",
+"API_DELETE_NOTIFICATION":"admin/deleteNotification?id=",
+"API_LISTING_NOTIFICATION":"admin/listingNotification",
+
+
+"API_LISTING_COUNTRY_NAME":"admin/listingNomPays",
+"API_LISTING_PRODUCT_NAME":"admin/listingNomProduit"
+
+ 
+
+}
